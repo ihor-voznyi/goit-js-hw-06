@@ -1,9 +1,9 @@
 'use strict';
 
 class StringBuilder {
-    value; //Private property
+    #value; //Private property
 
-    constructor(initialValue) {
+    constructor(initialValue = ``) {
         this.#value = initialValue;
     }
 
