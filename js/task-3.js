@@ -3,7 +3,7 @@
 class StringBuilder {
     value; //Private property
 
-    constructor(initialValue) {
+    constructor(initialValue = ``) {
         this.#value = initialValue;
     }
 
